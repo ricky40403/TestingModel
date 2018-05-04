@@ -5,6 +5,9 @@ class ShapesConfig(Config):
     Derives from the base Config class and overrides values specific
     to the toy shapes dataset.
     """
+    
+    TRAIN_MODE = "MASK"
+    
     # Give the configuration a recognizable name
     NAME = "shapes"
 
